@@ -10,23 +10,20 @@
 
     <div class="container">
 
-
-
-        <form id="registerForm">
-            <label for="username">Nome de Usuário</label>
-            <input type="text" id="newUsername" required>
+        <form id="registerForm" method="POST" action="register.php">
+            <label for="newUsername">Nome de Usuário</label>
+            <input type="text" id="newUsername" name="newUsername" required>
             <br>
             <br>
-            <label for="password">Senha:</label>
-            <input type="password" id="newPassword" required>
+            <label for="newPassword">Senha:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
             <br>
             <br>
             <p id="errorRegister" style="color: red"></p>
-            <p id="sucessRegister" style="color: black"></p>
-            <button type="button" id="registerUser">Registrar Usuário</button>
-            <button type="button" id="loginButton">Entrar</button>
+            <p id="successRegister" style="color: black"></p>
+            <button type="submit" id="registerUser">Registrar Usuário</button>
+            <button type="button" id="loginButton" onclick="window.location.href = '/index.html'">Entrar</button>
         </form>
-        
 
     </div>
 

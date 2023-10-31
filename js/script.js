@@ -1,4 +1,4 @@
-// OBJETOS ----- ARRAY DE OBJETOS ----------
+/* // OBJETOS ----- ARRAY DE OBJETOS ----------
 const people = [
     {name: 'AndersonLuigui', code: 123 },
     {name: 'NeuraBatista', code: 426},
@@ -98,3 +98,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 });
+ */
